@@ -9,7 +9,16 @@
 
 // Add your code right below, good luck!
 
+const firstName = "Avşar";
+const lastName = "Zırh";
+const birthYear = 1990;
+const thisYear = 2026;
+const fullName = firstName + " " + lastName;
+const age = thisYear - birthYear;
 
+const greeting = `Hello! My name is ${fullName} and I am ${age} years old.`;
+
+console.log(greeting);
 
 
 
